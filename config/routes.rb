@@ -12,6 +12,7 @@ end
 #scope '/admin', module: 'admin' do
 #  resources :stats, only: [:index]
 #end
+#It makes site/admin/stats work
 
   root 'posts#index'
 end
