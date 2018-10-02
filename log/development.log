@@ -4529,3 +4529,4 @@ Processing by Admin::StatsController#index as HTML
   [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "authors"
   [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1[0m
   Rendered admin/stats/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 19.5ms | ActiveRecord: 1.2ms)
