@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 namespace :admin do
   resources :stats, only: [:index]
 end
-#SAME AS ^^^^^
+#SAME AS ^^^^^ but with different helpers
 #scope '/admin', module: 'admin' do
 #  resources :stats, only: [:index]
 #end
